@@ -1,0 +1,172 @@
+ body{
+    background-color:hsl(216, 12%, 8%);
+    font-family: 'https://fonts.google.com/specimen/Overpass', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+    
+.big-container{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+
+}
+.container1{
+    background-color:   hsl(218, 11%, 15%);
+    width: auto;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  
+
+
+
+}
+.container1 .img{
+    background-color: hsl(210, 16%, 22%) ;
+    margin-top: 30px;
+    margin-left: 30px ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.container1 .img img{
+   width: 30px;
+}
+
+.container1 .text{
+
+    margin: 30px 20px ;
+
+}
+.container1 .text h1{
+    color: hsl(0, 100%, 100%) ;
+ 
+}
+.container1 .text p{
+    color:hsl(217, 12%, 63%) ;
+    font-size: 15px;
+   
+}
+.container1 .rating-nums{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.container1 .rating-nums div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 .btn2:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+.container1 .btn2.selected{
+    background-color:hsl(0, 100%, 100%) ;
+    color: black;
+}
+.container1  .btn2{
+    background-color: hsl(210, 16%, 22%);
+    padding: 10px;
+    color:hsl(0, 100%, 100%) ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+
+}
+.container1 .btn{
+    margin-top: 40px ;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.container1 .btn button{
+    background-color: hsl(25, 97%, 53%);
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.container1 .btn button:hover{
+    background-color: hsl(0, 100%, 100%);
+}
+
+
+
+
+.big-container2{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+
+}
+.container2{
+    background-color:   hsl(218, 11%, 15%);
+    width: auto;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+
+
+}
+.container2 .photo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container2 .rating {
+    background-color:hsl(213, 19%, 18%) ;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    margin-top: 30px;
+}
+.container2 .rating h4{
+    padding-left: 8px;
+}
+
+.container2 h2{
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+}
+
+.container2 p{
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+    padding: 20px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+
+
+
